@@ -133,6 +133,10 @@ a.card:active{
 	overflow-wrap: break-word;
 	text-transform: uppercase;
 }
+.card-icon{
+	width: 8vw;
+	padding: 5px 0;
+}
 .card-white{
 	background: #eee;
 	color: #222;
@@ -159,6 +163,7 @@ a.card:active{
 }
 #dev-subtitle{
 	text-align: center;
+	color: #555;
 	font-size: calc(8px + 1vw);
 }
 
@@ -170,6 +175,11 @@ a.card:active{
 	box-shadow: 3px 4px 4px #ccc;
 	background-image: url('../assets/images/dev.jpg');
 	background-size: cover;
+}
+#dev-bio{
+	text-align: center;
+	padding: 5px 2px;
+	color: #666;
 }
 
 #contact{
@@ -188,7 +198,10 @@ a.card:active{
 #social-media-list a{
 	text-decoration: none;
 	color: white;
-	font-size: calc(10px + 2vw);
+	font-size: calc(10px + 4vw);
+}
+#email{
+	color: #666;
 }
 
 #footer{
