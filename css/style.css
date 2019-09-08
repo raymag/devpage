@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 body{
 	background: #0c0b0d;
@@ -53,7 +56,7 @@ body{
 #main-title a:hover{
 	transition: .5s;
 	text-shadow: 3px 4px 4px #222;
-	color: #e5d81d;
+	color: #763fa4;
 }
 #main-text{
 	font-size: calc(10px + 1vw);
@@ -187,18 +190,18 @@ a.card:active{
 	padding: 50px 10px;
 	color: #eee;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 }
-#social-media-list li{
-	display: inline;
-}
-#social-media-list a{
+#contact a{
 	text-decoration: none;
 	color: white;
 	font-size: calc(10px + 4vw);
+}
+#contact a:hover{
+	text-shadow: 3px 4px 4px #222;
 }
 #email{
 	color: #666;
@@ -213,7 +216,10 @@ a.card:active{
 	align-items: center;
 	font-size: calc(10px + 1vw);
 }
-
+#footer-text{
+	text-decoration: none;
+	color: #eee;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
