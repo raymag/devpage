@@ -173,6 +173,7 @@ a.card:active{
 	font-size: calc(5px + 2vw);
 	text-align: center;
 	color: #2c277a;
+	
 }
 #dev-subtitle{
 	text-align: center;
