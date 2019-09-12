@@ -173,7 +173,6 @@ a.card:active{
 	font-size: calc(5px + 2vw);
 	text-align: center;
 	color: #2c277a;
-	
 }
 #dev-subtitle{
 	text-align: center;
@@ -260,9 +259,4 @@ a.card:active{
 	-webkit-text-fill-color: transparent;
 	font-size: calc(15px + 4vw);
 	padding: .5px;
-}
-
-
-#card-1:hover, #card-2:hover, #card-3:hover, #card-4:hover, #card-5:hover, #card-6:hover {
-	/* padding: 10px 15px; */
 }
