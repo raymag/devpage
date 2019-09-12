@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,13 +11,13 @@ html {
 body{
 	background: #0c0b0d;
 	color: #bbb;
-	font-family: monospace;
+	font-family: 'Lato', monospace;
 	font-weight: 600;
 }
 
 #main-box{
 	width: 100%;
-        height: 50vh;
+    height: 50vh;
 	display: flex;
 	justify-content:center;
 	align-items: center;
@@ -55,8 +57,11 @@ body{
 }
 #main-title a:hover{
 	transition: .5s;
-	text-shadow: 3px 4px 4px #222;
+	/* text-shadow: 3px 4px 4px #222; */
 	color: #763fa4;
+	background: -webkit-linear-gradient(56deg, #5d3280, #8c00ff, #2c0949);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #main-text{
 	font-size: calc(10px + 1vw);
@@ -75,7 +80,7 @@ body{
 	width: 20vw;
 	min-height: 25vh;
 	max-height: 40vh;
-	padding: 10px;
+	padding: 20px;
 	margin: 1em 0;
 	color: #eee;
 	border-radius: 5px;
@@ -84,6 +89,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
 }
 a.card{
 	background: #541d82;
@@ -93,6 +99,7 @@ a.card{
 }
 a.card:hover{
 	background: #e5d81d;
+	background: -webkit-linear-gradient(45deg, #8b8532, #ffee00, #b6ac20);
 	color: #222;	
 }
 a.card:active{
@@ -100,14 +107,14 @@ a.card:active{
 }
 .card-title{
 	font-weight: 900;
-	font-size: calc(10px + 1vw);
+	font-size: calc(7px + 1vw);
 	text-align: center;
 	text-transform: uppercase;
 }
 .card-text{
 	text-align: center;
 	max-width: 70%;
-	font-size: calc(5px + 1vw);
+	font-size: calc(2px + 1vw);
 }
 #projects-title{
 	width: 100%;
@@ -151,9 +158,11 @@ a.card:active{
 	grid-template-columns: 1fr 1fr;
 }
 #about{
-	background: #efefef;
+	/* background: #efefef; */
+	background: #a8a8a8;
+	color: #222;
 	padding: 50px 10px;
-	color: #2a2a2a;
+	/* color: #2a2a2a; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -161,12 +170,14 @@ a.card:active{
 	flex-wrap: wrap;	
 }
 #dev-title{
-	font-size: calc(8px + 2vw);
+	font-size: calc(5px + 2vw);
 	text-align: center;
+	color: #2c277a;
 }
 #dev-subtitle{
 	text-align: center;
-	color: #555;
+	/* color: #555; */
+	color: rgb(40, 36, 97);
 	font-size: calc(8px + 1vw);
 }
 
@@ -175,20 +186,23 @@ a.card:active{
 	height: calc(20px + 20vw);
 	margin: 5px 0;
 	border-radius: 50%;
-	box-shadow: 3px 4px 4px #ccc;
+	box-shadow: 3px 4px 4px #222;
 	background-image: url('../assets/images/dev.jpg');
 	background-size: cover;
 }
 #dev-bio{
 	text-align: center;
 	padding: 5px 2px;
-	color: #666;
+	/* color: #666; */
+	color: rgb(40, 36, 97);
 }
 
 #contact{
-	background: #2d2c2f;
+	background: #efefef;
+	color: #2a2a2a;
+	/* background: #2d2c2f; */
 	padding: 50px 10px;
-	color: #eee;
+	/* color: #eee; */
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -197,14 +211,11 @@ a.card:active{
 }
 #contact a{
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-size: calc(10px + 4vw);
 }
-#contact a:hover{
-	text-shadow: 3px 4px 4px #222;
-}
 #email{
-	color: #666;
+	color: rgb(40, 36, 97);
 }
 
 #footer{
@@ -221,25 +232,31 @@ a.card:active{
 	color: #eee;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+#instagram-icon:hover{
+	background: -webkit-linear-gradient(45deg, rgb(71, 71, 71), rgb(179, 38, 204), rgb(95, 6, 155));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: calc(15px + 4vw);
+	padding: .5px;
+}
+#github-icon:hover{
+	background: -webkit-linear-gradient(45deg, rgb(71, 71, 71), rgb(61, 9, 121), rgb(128, 28, 194));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: calc(15px + 4vw);
+	padding: .5px;
+}
+#twitter-icon:hover{
+	background: -webkit-linear-gradient(45deg, rgb(71, 71, 71), rgb(57, 85, 245), rgb(9, 10, 97));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: calc(15px + 4vw);
+	padding: .5px;
+}
+#dev-icon:hover{
+	background: -webkit-linear-gradient(45deg, rgb(53, 53, 53), rgb(114, 114, 114), rgb(22, 22, 22));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: calc(15px + 4vw);
+	padding: .5px;
 }
