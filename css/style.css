@@ -3,6 +3,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	--base-blue: #2700ff;
+	--base-fuschia: #a400ff;
 }
 html {
 	scroll-behavior: smooth;
@@ -92,10 +94,12 @@ body{
 	overflow: hidden;
 }
 a.card{
-	background: #541d82;
-	color: #ddd;
 	text-decoration: none;
-	transition: .4s;
+	color: #ddd;
+	background: #541d82;
+	background: -webkit-linear-gradient(45deg, #a400ff, #2700ff);
+	box-shadow: 3px 3px 8px #8b77ffdc;
+	border: none;
 }
 a.card:hover{
 	background: #e5d81d;
@@ -158,8 +162,8 @@ a.card:active{
 	grid-template-columns: 1fr 1fr;
 }
 #about{
-	/* background: #efefef; */
-	background: #a8a8a8;
+	background: var(--base-fuschia);
+	background: -webkit-linear-gradient(45deg, var(--base-fuschia), var(--base-blue));
 	color: #222;
 	padding: 50px 10px;
 	/* color: #2a2a2a; */
