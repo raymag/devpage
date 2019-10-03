@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	--base-blue: #2700ff;
+	--base-blue: #2604e4;
 	--base-fuschia: #a400ff;
 }
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body{
-	background: #0c0b0d;
+	background: #302a36;
 	color: #bbb;
 	font-family: 'Lato', monospace;
 	font-weight: 600;
@@ -45,7 +45,7 @@ body{
 	justify-content: center;	
 	align-items: center;
 	flex-direction: column;
-	border: 2px solid #666;
+	border: 2px solid rgb(61, 60, 60);
 	padding: 20px 40px;
 	border-radius: 2px;
 }
@@ -67,7 +67,7 @@ body{
 }
 #main-text{
 	font-size: calc(10px + 1vw);
-	color: rgb(73, 27, 116);
+	color: rgb(104, 36, 167);
 }
 
 #projects-box {
@@ -131,9 +131,9 @@ a.card:active{
 }
 
 #skills-box{
-	background: #0b0a0d;
+	background: #15173f;
 	padding: 80px 10px;
-	color: #eee;
+	color: rgb(136, 134, 134);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -153,8 +153,8 @@ a.card:active{
 	padding: 5px 0;
 }
 .card-white{
-	background: #eee;
-	color: #222;
+	background: rgb(68, 68, 68);
+	color: rgb(0, 0, 0);
 	box-shadow: 3px 4px 4px #222;
 }
 
@@ -191,7 +191,7 @@ a.card:active{
 	height: calc(20px + 20vw);
 	margin: 5px 0;
 	border-radius: 50%;
-	box-shadow: 3px 4px 4px #222;
+	box-shadow: 3px 4px 4px rgb(34, 34, 34);
 	background-image: url('../assets/images/dev.jpg');
 	background-size: cover;
 }
