@@ -4,8 +4,6 @@ let toggleMenuBurguer = () => {
     navbarLinks.classList.toggle('menu-active');
     menuBurguer.classList.toggle('menu-active');
 }
-
-
 document.addEventListener('click', e => {
     let menuBurguer = document.querySelector('#menu-burguer');
     let navbarLinks = document.querySelector('#navbar-links');
@@ -28,7 +26,7 @@ document.addEventListener('click', e => {
                 }
             }
         }
-        if(clickIsOutside){
+        if (clickIsOutside) {
             navbarLinks.classList.remove('menu-active');
             menuBurguer.classList.remove('menu-active');
         }
