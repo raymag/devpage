@@ -141,17 +141,6 @@ a.card:hover .card-header {
 a.card:active {
   box-shadow: 4px 5px 5px #8e8e8e;
 }
-.card-title {
-  font-weight: 900;
-  font-size: calc(7px + 1vw);
-  text-align: center;
-  text-transform: uppercase;
-}
-.card-text {
-  text-align: center;
-  max-width: 70%;
-  font-size: calc(2px + 1vw);
-}
 #projects-title {
   width: 100%;
   text-align: center;
@@ -162,7 +151,7 @@ a.card:active {
 }
 
 #skills-box {
-  background: #0b0a0d;
+  background: #0f0f0f;
   padding: 80px 10px;
   color: #eee;
 }
