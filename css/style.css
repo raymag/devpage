@@ -220,8 +220,8 @@ a.card:active {
 }
 
 #contact {
-  background: #efefef;
-  color: #2a2a2a;
+  background: #2a2a2a;
+  color: #ffffffaf;
   padding: 50px 10px;
   display: flex;
   justify-content: space-evenly;
@@ -231,7 +231,7 @@ a.card:active {
 }
 #contact a {
   text-decoration: none;
-  color: black;
+  color: #ffffffaf;
   font-size: calc(10px + 4vw);
 }
 #email {
@@ -473,4 +473,30 @@ a.card:active {
     width: 50vw;
     height: calc(100vh - 30px);
   }
+}
+
+.box{
+  background: #efefef;
+  padding: 80px 10px;
+  color: #2a2a2a;
+}
+
+#misc-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#misc-box .content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+}
+#misc-box #misc-title{
+  font-size: calc(5px + 2vw);
+  text-align: center;
 }
