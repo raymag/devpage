@@ -499,6 +499,6 @@ a.card:active {
   margin-top: 30px;
 }
 #misc-box #misc-title{
-  font-size: calc(5px + 2vw);
+  font-size: calc(30px + 1vw);
   text-align: center;
 }
