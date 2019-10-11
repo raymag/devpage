@@ -205,8 +205,8 @@ a.card:active {
 }
 
 #dev-picture {
-  width: calc(20px + 20vw);
-  height: calc(20px + 20vw);
+  width: 10em;
+  height: 10em;
   margin: 5px 0;
   border-radius: 50%;
   box-shadow: 3px 4px 4px #222;
