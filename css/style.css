@@ -18,6 +18,7 @@ body {
   color: #bbb;
   font-family: "Lato", monospace;
   font-weight: 600;
+  margin: 0;
 }
 
 #main-box {
