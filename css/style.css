@@ -212,6 +212,7 @@ a.card:active {
   box-shadow: 3px 4px 4px #222;
   background-image: url("../assets/images/dev.jpg");
   background-size: cover;
+  background-position: right;
 }
 #dev-bio {
   text-align: center;
